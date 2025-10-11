@@ -55,8 +55,7 @@ export const Footer = () => {
         {/* Additional SEO footer content */}
         <div className="mt-4 text-xs text-gray-500">
           <p>
-            © 2024 Terminal Coffee Shop - Premium Coffee Delivery for
-            Developers
+            © 2025 terminacoffeee.shop
           </p>
           <p>
             Order terminal coffee online | Terminal coffee shop | Coffee for
