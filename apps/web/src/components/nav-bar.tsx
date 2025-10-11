@@ -28,6 +28,8 @@ export const Navbar = ({ onCartClick }: NavbarProps) => {
         <Link
           href="/"
           className="cursor-pointer no-underline flex items-center gap-2"
+          title="Terminal Coffee Shop - Order Coffee Online"
+          aria-label="Terminal Coffee Shop Homepage"
         >
           <h2 className="text-2xl text-white font-bold">coffee</h2>
           <div className="w-5 h-10 bg-primary blink" />
