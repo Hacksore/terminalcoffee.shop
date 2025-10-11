@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 
-const title = "Terminal Coffee Shop - Order Coffee Online | terminalcoffee.shop";
-const description = "Order premium terminal coffee from your web browser. The ultimate terminal coffee shop experience - fresh coffee delivered to developers worldwide. Shop terminal coffee online today!";
+const title =
+  "Terminal Coffee Shop - Order Coffee Online | terminalcoffee.shop";
+const description =
+  "Order premium terminal coffee from your web browser. The ultimate terminal coffee shop experience - fresh coffee delivered to developers worldwide. Shop terminal coffee online today!";
 const BASE_URL = process.env.VERCEL_ENV
   ? "https://terminalcoffee.shop"
   : "http://localhost:3000";
@@ -19,7 +21,7 @@ export const metadata: Metadata = {
     "coffee delivery",
     "premium coffee",
     "terminal coffee ordering",
-    "coffee for developers"
+    "coffee for developers",
   ],
   authors: [{ name: "Terminal Coffee Shop" }],
   creator: "Terminal Coffee Shop",
